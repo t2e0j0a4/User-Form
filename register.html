@@ -13,7 +13,7 @@
             <h1>Register</h1>
             <div class="inputGroup emailGroup" data-token="email">
                 <label data-token="email" for="email" class="inputLabel">Email</label>
-                <input required id="email" type="email" name="email" class="textInput" data-token="email">
+                <input id="email" type="email" name="email" class="textInput" data-token="email">
             </div>
             <div class="inputGroup usernameGroup" data-token="username">
                 <label data-token="username" for="username" class="inputLabel">Username</label>
@@ -24,24 +24,23 @@
                 <input required id="rollno" type="text" name="rollno" class="textInput" data-token="rollno">
             </div>
             <div class="inputGroup dateGroup" data-token="username">
-                <input required id="dob" type="date" name="dob" class="textInput" data-token="dob">
+                <input id="dob" type="date" name="dob" class="textInput" data-token="dob">
             </div>
             <div class="inputGroup passwordGroup" data-token="password">
                 <label data-token="password" for="password" class="inputLabel">Password</label>
                 <div class="passwordInputBox">
-                    <input required type="password" id="password" name="password" class="textInput" data-token="password">
+                    <input  type="password" id="password" name="password" class="textInput" data-token="password">
                 </div>
             </div>
             <div class="inputGroup passwordGroup" data-token="confirmpassword">
                 <label data-token="confirmpassword" for="confirmpassword" class="inputLabel">Confirm Password</label>
                 <div class="passwordInputBox">
-                    <input required type="password" id="confirmpassword" name="confirmPassword" class="textInput" data-token="confirmpassword">
+                    <input type="password" id="confirmpassword" name="confirmPassword" class="textInput" data-token="confirmpassword">
                 </div>
             </div>
             <button type="submit">Register</button>
-            <p class="hint">Already existing user? <a href="/login.html">Login</a></p>
+            <p class="hint">Already existing user? <a href="/index.html">Login</a></p>
         </form>
-        <a href="/index.html">Back Home</a>
     </div>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

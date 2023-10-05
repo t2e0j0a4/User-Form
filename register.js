@@ -42,5 +42,7 @@ function registerFormSubmit(e) {
     }
   });
 
+  window.location.href = "/home.html";
+
   // Above is just a sample, just edit and do waht you like.
 }
