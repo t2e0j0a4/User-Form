@@ -1,7 +1,5 @@
 let inputLabels = Array.from(document.querySelectorAll(".inputLabel"));
 let inputs = Array.from(document.querySelectorAll('.textInput'));
-let togglePassword = document.querySelector('.togglePassword');
-let togglePasswordIcon = document.querySelector('.togglePassword ion-icon');
 
 // On Page Load Focuses on 1st Input Element
 
@@ -33,30 +31,6 @@ inputs.forEach((input) => {
 
 })
 
-// Toggling Show/Hide Password.
-
-togglePassword.addEventListener('click', function() {
-
-    let token = this.dataset.token;
-    
-    if (togglePasswordIcon.name === 'eye-outline') {
-        togglePasswordIcon.name = 'eye-off-outline'
-        inputs.forEach((input) => {
-            if (input.dataset.token === token) {
-                input.type = 'text';
-            }
-        })
-    }
-    else {
-        togglePasswordIcon.name = 'eye-outline';
-        inputs.forEach((input) => {
-            if (input.dataset.token === token) {
-                input.type = 'password';
-            }
-        })
-    }
-
-})
 
 // Form Submitting 
 

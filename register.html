@@ -19,23 +19,29 @@
                 <label data-token="username" for="username" class="inputLabel">Username</label>
                 <input required id="username" type="text" name="username" class="textInput" data-token="username">
             </div>
+            <div class="inputGroup rollnoGroup" data-token="rollno">
+                <label data-token="rollno" for="rollno" class="inputLabel">Roll Number</label>
+                <input required id="rollno" type="text" name="rollno" class="textInput" data-token="rollno">
+            </div>
+            <div class="inputGroup dateGroup" data-token="username">
+                <input required id="dob" type="date" name="dob" class="textInput" data-token="dob">
+            </div>
             <div class="inputGroup passwordGroup" data-token="password">
                 <label data-token="password" for="password" class="inputLabel">Password</label>
                 <div class="passwordInputBox">
                     <input required type="password" id="password" name="password" class="textInput" data-token="password">
-                    <button type="button" class="togglePassword" title="Show" data-token="password"><ion-icon name="eye-outline" data-token="password"></ion-icon></button>
                 </div>
             </div>
             <div class="inputGroup passwordGroup" data-token="confirmpassword">
                 <label data-token="confirmpassword" for="confirmpassword" class="inputLabel">Confirm Password</label>
                 <div class="passwordInputBox">
                     <input required type="password" id="confirmpassword" name="confirmPassword" class="textInput" data-token="confirmpassword">
-                    <button type="button" class="togglePassword" title="Show" data-token="confirmpassword"><ion-icon name="eye-outline" data-token="confirmpassword"></ion-icon></button>
                 </div>
             </div>
-            <button type="submit">Register <ion-icon name="log-in-outline"></ion-icon></button>
-            <p class="hint">Already existing user? <a href="/index.html">Login</a></p>
+            <button type="submit">Register</button>
+            <p class="hint">Already existing user? <a href="/login.html">Login</a></p>
         </form>
+        <a href="/index.html">Back Home</a>
     </div>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

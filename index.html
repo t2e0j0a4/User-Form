@@ -3,32 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Simple Form | Login</title>
+    <title>Anurag University</title>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     
-    <div class="page">
-        <form onsubmit="loginFormSubmit(event)" class="form">
-            <h1>Login</h1>
-            <div class="inputGroup emailGroup" data-token="email">
-                <label data-token="email" for="email" class="inputLabel">Email</label>
-                <input required id="email" type="email" name="email" class="textInput loginInputs" data-token="email">
-            </div>
-            <div class="inputGroup passwordGroup" data-token="password">
-                <label data-token="password" for="password" class="inputLabel">Password</label>
-                <div class="passwordInputBox">
-                    <input required type="password" id="password" name="password" class="textInput loginInputs" data-token="password">
-                    <button type="button" class="togglePassword" title="Show" data-token="password"><ion-icon name="eye-outline"></ion-icon></button>
-                </div>
-            </div>
-            <button type="submit">Login <ion-icon name="log-in-outline"></ion-icon></button>
-            <p class="hint">Don't have an account? <a href="/register.html">Register</a></p>
-        </form>
+    <div class="logo">
+        <img src="/AnuragUniversity.jpg" alt="AU">
     </div>
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="/login.js"></script>
+    <div class="links">
+        <a href="/login.html">Login</a>
+        <a href="/register.html">Register</a>
+    </div>
+
+    <div class="content">
+        <div class="images">
+            <img src="/1.jpg" alt="1">
+            <img src="/2.jpg" alt="2">
+            <img src="/3.jpg" alt="3">
+            <img src="/4.jpg" alt="4">
+            <img src="/5.jpg" alt="5">
+            <img src="/6.jpg" alt="6">
+        </div>
+        <div class="description">
+            Anurag University is a Private University located in Venkatapur, Medchal-Malkajgiri district, Hyderabad, Telangana, India. Established in 2020, and is one of the First Private Universities in the State of Telangana. The Institution currently offers 15 Undergraduate Programs, 10 Postgraduate Programs and 9 Doctoral Programs through its Schools of Engineering, Management, Pharmacy, Agriculture and Medical Sciences.
+            <br/>
+            <br/>
+            Ranked 3rd Best Engineering College in Telangana and 13th Best Engineering College in South India- by Times Top Private Engineering Institute Rankings Survey - 2022.
+            <br/>
+            <br/>
+            “The Best Engineering College Award” by ISTE for All Round Performance of the year 2012.
+        </div>
+    </div>
+
 </body>
 </html>
