@@ -252,11 +252,13 @@ button[type="submit"] {
 
 .blogs {
     width: 95%;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: 2;
     gap: 2rem 1rem;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 h2 {
@@ -322,6 +324,15 @@ h2 {
 .blog > div p {
     font-size: 16px;
     text-align: left;
+}
+
+.content > a {
+    padding: 0.8rem 1.6rem;
+    font-size: 18px;
+    color: #232323;
+    border-radius: 8px;
+    background-color: rgb(206, 206, 206);
+    border: 2px solid #232323;
 }
 
 @media all and (max-width : 700px) {
